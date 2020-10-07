@@ -1,0 +1,13 @@
+﻿@*@{
+    Layout = null;
+}*@
+@model  List<Person>
+
+<h1>About me page</h1>
+<ul class="test">Test
+    @foreach (var item in Model)
+    {
+        <li>@item.Name @item.Surname</li>
+
+    }
+</ul>
